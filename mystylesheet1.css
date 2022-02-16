@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color:  #F1FBF3;
+    
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: fixed;
+    background-color: #00834C;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    font-weight: 60;
+    
+  }
+
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+
+  }
+
+  .topimg{
+      float: none;
+      width: 130px;
+      height: 40px;
+
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+
+  .topnav-left{
+      float: left;
+      padding: 21px 250px;
+
+      
+  }
+
+  .topnav-right {
+    float: right;
+    padding: 21px 10px;
+  }
+
+  .topsection{
+    overflow: hidden;
+    text-align: center; 
+    padding: 70px 10px;
+}
+
+#toppicture{
+    width: auto;
+    height: 50px
+    
+}
+
+.topsection p{
+    font-size: 15px; 
+    text-align: left;
+    font-family: Arial;
+ 
+}
+
+ .secondsection{
+    overflow: hidden;
+    padding: 0px 10px;
+    align-self: center;
+    text-align: center;
+      
+} 
+.row {
+    display: flex;
+  
+}
+.column img {
+    float: left;
+    width: 100%;
+    height: auto;
+   
+  }
+
+.secondsection p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+#acycle{
+    width: 20%;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.white{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: solid 1px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+
+.recyclespace{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.recyclespace span{
+    padding: 10px;
+    font-size: large;
+    
+}
+.recyclespace img{
+    width: 50px;
+    height: 56px;
+}
+
+.white p{
+    padding-bottom: 10px;
+}
+
+/* .white2{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    border: solid 1px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    
+} */
+
+.buysell{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.buysell span{
+    padding: 10px;
+    font-size: large;
+    
+}
+.buysell img{
+    width: 50px;
+    height: 56px;
+}
+
+.white2 p{
+    padding-bottom: 10px;
+}
+
+.learnmore{
+    color: red;
+}
+
